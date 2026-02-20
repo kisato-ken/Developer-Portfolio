@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --color-term-bg: #1e1e2e;
+  /* Base */
+  --color-term-surface: #181825;
+  /* Mantle */
+  --color-term-crust: #11111b;
+  /* Crust */
+  --color-term-surface-hover: #313244;
+  /* Surface0 */
+  --color-term-text: #cdd6f4;
+  /* Text */
+  --color-term-muted: #a6adc8;
+  /* Subtext0 */
+  --color-term-accent: #cba6f7;
+  /* Mauve */
+  --color-term-border: #45475a;
+  /* Surface1 */
+  --color-term-success: #a6e3a1;
+  /* Green */
+  --color-term-warning: #f9e2af;
+  /* Yellow */
+  --color-term-error: #f38ba8;
+  /* Red */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-term-bg);
+    color: var(--color-term-text);
+    font-family: var(--font-mono);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* AppLayout handles scrolling if needed */
+  }
+
+  /* Custom scrollbar to match terminal theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-term-border);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-term-muted);
+  }
+}
+
+@utility terminal-window {
+  @apply bg-term-bg text-term-text h-screen w-screen flex flex-col overflow-hidden text-sm;
+}
