@@ -4,12 +4,12 @@ An interactive developer portfolio featuring a terminal-style interface and virt
 
 ## Features
 
-- 🖥️ **Terminal Interface**: Navigate through the portfolio using familiar terminal commands
-- 📁 **Virtual File System**: Explore projects, skills, and information in a file-tree structure  
-- ⌨️ **Command Palette**: Quick navigation with `Ctrl/Cmd + P`
-- 📝 **Code Editor UI**: View content in a VS Code-inspired editor pane
-- 🎨 **Modern Stack**: React 19, TypeScript, Tailwind CSS, Framer Motion
-- ⚡ **Fast & Responsive**: Built with Vite for optimal performance
+-  **Terminal Interface**: Navigate through the portfolio using familiar terminal commands
+-  **Virtual File System**: Explore projects, skills, and information in a file-tree structure  
+-  **Command Palette**: Quick navigation with `Ctrl/Cmd + P`
+-  **Code Editor UI**: View content in a VS Code-inspired editor pane
+-  **Modern Stack**: React 19, TypeScript, Tailwind CSS, Framer Motion
+-  **Fast & Responsive**: Built with Vite for optimal performance
 
 ## Getting Started
 
@@ -91,6 +91,6 @@ MIT
 ## Author
 
 **Siddhartha Shankar Dhar**  
-📧 kisato.ken@protonmail.com  
-🐙 [GitHub](https://github.com/kisato-ken)  
-💼 [LinkedIn](https://www.linkedin.com/in/siddharthadhar04)
+    kisato.ken@protonmail.com  
+    [GitHub](https://github.com/kisato-ken)  
+    [LinkedIn](https://www.linkedin.com/in/siddharthadhar04)
